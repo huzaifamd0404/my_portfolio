@@ -1,0 +1,21 @@
+# Place your images here
+
+## Recommended images:
+- profile.jpg/png - Your profile photo (500x600px recommended)
+- project1.jpg/png - Project screenshot 1 (600x400px recommended)
+- project2.jpg/png - Project screenshot 2 (600x400px recommended)
+- project3.jpg/png - Project screenshot 3 (600x400px recommended)
+- logo.svg/png - Your logo (optional)
+
+## Usage:
+Reference images in your components like:
+```tsx
+import Image from 'next/image'
+
+<Image 
+  src="/images/profile.jpg" 
+  alt="Profile" 
+  width={500}
+  height={600}
+/>
+```
